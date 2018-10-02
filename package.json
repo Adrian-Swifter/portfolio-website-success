@@ -1,0 +1,22 @@
+{
+  "name": "modern_portfolio-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adrian-Swifter/portfolio-website-success.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adrian-Swifter/portfolio-website-success/issues"
+  },
+  "homepage": "https://github.com/Adrian-Swifter/portfolio-website-success#readme",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
