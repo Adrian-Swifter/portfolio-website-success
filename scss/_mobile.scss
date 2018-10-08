@@ -19,9 +19,18 @@
     text-align: center;
 
     .lg-heading {
-      line-height: 1;
+      line-height: 60px;
       margin-bottom: 1rem;
       font-size: 4rem;
+    }
+
+    .boxes {
+      display: block;
+    }
+
+    .boxes div {
+      font-size: 1rem;
+      padding: 1.5rem;
     }
   }
 

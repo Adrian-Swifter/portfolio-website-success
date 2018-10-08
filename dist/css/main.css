@@ -164,10 +164,8 @@ main {
       margin-top: 20vh; }
 
 .about-info {
-  display: grid;
-  grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
-  grid-template-columns: repeat(3, 1fr); }
+  display: flex;
+  flex-direction: column; }
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
@@ -181,8 +179,6 @@ main {
     grid-area: job1; }
   .about-info .job-2 {
     grid-area: job2; }
-  .about-info .job-3 {
-    grid-area: job3; }
   .about-info .job {
     background: #1e1e1e;
     padding: 0.5rem;
@@ -257,9 +253,14 @@ main {
     align-items: center;
     text-align: center; }
     main .lg-heading {
-      line-height: 1;
+      line-height: 60px;
       margin-bottom: 1rem;
       font-size: 4rem; }
+    main .boxes {
+      display: block; }
+    main .boxes div {
+      font-size: 1rem;
+      padding: 1.5rem; }
   ul.menu-nav,
   div.menu-branding {
     float: none;
