@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/Adrian-Swifter/portfolio-website-success#readme",
   "dependencies": {
-    "node-sass": "^4.9.3"
+    "node-sass": "^4.13.1"
   }
 }
